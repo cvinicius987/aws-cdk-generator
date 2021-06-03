@@ -64,16 +64,21 @@ cdk --version
 
 ## Execução
 
+#### Construtores Dispóniveis
+
+- empty: Construtor padrão que apenas cria uma Stack Cloud Formation no ambiente;
+
 
 #### Criando a Stack  
 
 ```
 cdk deploy -c accountId=<here> -c region=<here>  -c envName=<here> -c stackName=<here>
 ```
-- *accountId*: ID da conta onde os recursos serão criados (Caso não informado pegará o default do AWS CLI);
-- *region*: Região onde os recursos serão criados (Casos não informado perará o default do AWS CLI);
-- *envName*: No do ambiente que será criado, no caso podemos ter prod, homolog, dev, etc;
-- *stackName*: Nome da Stack CloudFormation Criada.
+- *accountId*: ID da conta onde os recursos serão criados (Default: Conta vinculada ao AWS CLI);
+- *region*: Região onde os recursos serão criados (Default: Região do AWS CLI);
+- *envName*: No do ambiente que será criado, no caso podemos ter prod, homolog, dev, etc (Default: test);
+- *stackName*: Nome da Stack CloudFormation Criada (Default: Nome do Construtor);
+- *constructor*: Nome da Construtor que será executado.
 
 #### Exclusão da Stack
 
