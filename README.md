@@ -1,4 +1,4 @@
-# AWS CDK Series
+# AWS CDK Generator
 
 Criação de Construtores para criação de infraestrutura como código na AWS utilizando o CDK.
 
