@@ -4,8 +4,8 @@ Aplicação para criar ambientes no Cloud AWS utilizando o CDK como ferramenta d
 
 ## Configuração do Ambiente
 
-- [Criação conta AWS](docs/AWS.md);
-- [Configuração do ambiente CDK](docs/CONFIGURE.md);
+- [Criação conta AWS](docs/AWS.md)
+- [Configuração do ambiente CDK](docs/CONFIGURE.md)
 
 ## Aplicação
 
